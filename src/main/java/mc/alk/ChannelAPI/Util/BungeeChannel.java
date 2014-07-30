@@ -12,7 +12,7 @@ public class BungeeChannel {
         for (Method method : exec.getClass().getMethods()) {
             try {
                 ChannelInt channel = method.getAnnotation(ChannelInt.class);
-                new Enable(channel.channel(), channel.subchannel(), method,true);
+                new Enable(channel.channel(), channel.subchannel(), method, true);
             } catch (Exception e) {
             }
         }

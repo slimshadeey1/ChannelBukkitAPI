@@ -12,10 +12,12 @@ import java.lang.reflect.*;
  */
 public class PluginRegister {
     private static Plugin plugin;
-    public PluginRegister(Plugin plug){
+
+    public PluginRegister(Plugin plug) {
         plugin = plug;
         new BungeeChannel(new BungeeListeners());
     }
+
     public static Plugin getPlugin() {
         return plugin;
     }

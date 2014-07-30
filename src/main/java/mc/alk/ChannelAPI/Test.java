@@ -8,9 +8,9 @@ import java.util.*;
 /**
  * Created by Ben Byers on 7/28/2014.
  */
-public class Test implements ChannelExec{
-    public static void sendMe(){ //This is how you send something
-        BAout message = new BAout("channel","sub");
+public class Test implements ChannelExec {
+    public static void sendMe() { //This is how you send something
+        BAout message = new BAout("channel", "sub");
         ArrayList<String> mine = new ArrayList<>(); //Everything in this will be sent
         mine.add("Hello");
         message.setData(mine);

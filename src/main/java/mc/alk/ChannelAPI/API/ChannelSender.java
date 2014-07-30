@@ -13,9 +13,11 @@ import org.bukkit.plugin.*;
 public class ChannelSender {
     private static Plugin plugin = PluginRegister.getPlugin();
     private static String server = BungeeControls.getServer();
+
     public ChannelSender(BAout packet) {
-        plugin.getServer().sendPluginMessage(plugin,packet.getChannel(),packet.getPacket().toByteArray());
+        plugin.getServer().sendPluginMessage(plugin, packet.getChannel(), packet.getPacket().toByteArray());
     }
+
     @Deprecated
     public ChannelSender(ByteArrayDataOutput out) {
         plugin.getServer().sendPluginMessage(plugin, "BungeeCord", out.toByteArray());

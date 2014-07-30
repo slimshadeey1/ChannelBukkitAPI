@@ -32,9 +32,11 @@ public class BAin {
     public ArrayList<String> getData() {
         return dat;
     }
+
     public String getServer() {
         return server;
     }
+
     public String getSubChannel() {
         return subChannel;
     }

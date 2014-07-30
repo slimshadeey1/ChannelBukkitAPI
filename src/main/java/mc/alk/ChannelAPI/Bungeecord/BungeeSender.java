@@ -9,11 +9,12 @@ import org.bukkit.plugin.*;
  */
 public class BungeeSender {
     public Plugin plugin = PluginRegister.getPlugin();
-    public BungeeSender(String subChannel,String... args) {
+
+    public BungeeSender(String subChannel, String... args) {
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
         //Define Sub Channel
         out.writeUTF(subChannel);
-        for(String arg:args){
+        for (String arg : args) {
             out.writeUTF(arg);
         }
         new ChannelSender(out);

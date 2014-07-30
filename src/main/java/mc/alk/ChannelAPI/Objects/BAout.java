@@ -15,14 +15,15 @@ public class BAout {
     private ArrayList<String> Data = new ArrayList<>();
     private ByteArrayDataOutput Packet;
 
-    public BAout(String channel,String subchannel){
-        Channel=channel;
-        SubChannel=subchannel;
+    public BAout(String channel, String subchannel) {
+        Channel = channel;
+        SubChannel = subchannel;
     }
 
     public void setData(ArrayList<String> data) {
         Data = data;
     }
+
     public void setServer(String server) {
         Server = server;
     }
@@ -43,15 +44,18 @@ public class BAout {
         }
         out.writeShort(bytes.toByteArray().length);
         out.write(bytes.toByteArray());
-        Packet=out;
+        Packet = out;
         return Packet;
     }
+
     public String getChannel() {
         return Channel;
     }
+
     public String getSubChannel() {
         return SubChannel;
     }
+
     public String getServer() {
         return Server;
     }
