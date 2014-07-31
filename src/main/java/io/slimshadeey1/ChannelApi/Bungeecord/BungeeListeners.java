@@ -1,6 +1,6 @@
-package mc.alk.ChannelAPI.Bungeecord;
+package mc.alk.ChannelApi.Bungeecord;
 
-import mc.alk.ChannelAPI.API.*;
+import mc.alk.ChannelApi.API.*;
 
 import java.io.*;
 

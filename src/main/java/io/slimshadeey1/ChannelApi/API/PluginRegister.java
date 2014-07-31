@@ -1,11 +1,8 @@
-package mc.alk.ChannelAPI.API;
+package mc.alk.ChannelApi.API;
 
-import mc.alk.ChannelAPI.API.*;
-import mc.alk.ChannelAPI.Bungeecord.*;
-import mc.alk.ChannelAPI.Util.*;
+import mc.alk.ChannelApi.Bungeecord.*;
+import mc.alk.ChannelApi.Util.*;
 import org.bukkit.plugin.*;
-
-import java.lang.reflect.*;
 
 /**
  * Created by Ben Byers on 7/28/2014.

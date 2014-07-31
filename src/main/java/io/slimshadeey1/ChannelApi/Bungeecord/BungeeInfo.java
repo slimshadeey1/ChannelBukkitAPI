@@ -1,6 +1,4 @@
-package mc.alk.ChannelAPI.Bungeecord;
-
-import org.bukkit.entity.*;
+package mc.alk.ChannelApi.Bungeecord;
 
 /**
  * Created by Ben Byers on 7/28/2014.

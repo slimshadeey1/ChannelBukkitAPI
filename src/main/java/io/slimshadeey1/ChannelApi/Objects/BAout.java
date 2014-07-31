@@ -1,4 +1,4 @@
-package mc.alk.ChannelAPI.Objects;
+package mc.alk.ChannelApi.Objects;
 
 import com.google.common.io.*;
 

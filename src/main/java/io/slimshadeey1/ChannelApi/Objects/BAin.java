@@ -1,4 +1,4 @@
-package mc.alk.ChannelAPI.Objects;
+package mc.alk.ChannelApi.Objects;
 
 import java.io.*;
 import java.util.*;

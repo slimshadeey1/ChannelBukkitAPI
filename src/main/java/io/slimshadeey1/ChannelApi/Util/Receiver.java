@@ -1,8 +1,7 @@
-package mc.alk.ChannelAPI.Util;
+package mc.alk.ChannelApi.Util;
 
-import mc.alk.ChannelAPI.Objects.*;
+import mc.alk.ChannelApi.Objects.*;
 import org.bukkit.entity.*;
-import org.bukkit.event.*;
 import org.bukkit.plugin.messaging.*;
 
 import java.io.*;

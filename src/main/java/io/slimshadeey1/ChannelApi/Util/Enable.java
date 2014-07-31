@@ -1,6 +1,6 @@
-package mc.alk.ChannelAPI.Util;
+package mc.alk.ChannelApi.Util;
 
-import mc.alk.ChannelAPI.API.*;
+import mc.alk.ChannelApi.API.*;
 
 import java.lang.reflect.*;
 

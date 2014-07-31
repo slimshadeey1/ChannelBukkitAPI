@@ -1,8 +1,7 @@
-package mc.alk.ChannelAPI.API;
+package mc.alk.ChannelApi.API;
 
 import com.google.common.io.*;
-import mc.alk.ChannelAPI.API.*;
-import mc.alk.ChannelAPI.Objects.*;
+import mc.alk.ChannelApi.Objects.*;
 import org.bukkit.plugin.*;
 
 /**

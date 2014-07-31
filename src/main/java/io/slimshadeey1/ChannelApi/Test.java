@@ -1,9 +1,10 @@
-package mc.alk.ChannelAPI;
+package mc.alk.ChannelApi;
 
-import mc.alk.ChannelAPI.API.*;
-import mc.alk.ChannelAPI.Objects.*;
+import mc.alk.ChannelApi.API.*;
+import mc.alk.ChannelApi.Objects.*;
 
 import java.util.*;
+
 
 /**
  * Created by Ben Byers on 7/28/2014.

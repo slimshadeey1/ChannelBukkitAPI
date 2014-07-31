@@ -1,4 +1,4 @@
-package mc.alk.ChannelAPI.API;
+package mc.alk.ChannelApi.API;
 
 /**
  * Created by Ben Byers on 7/28/2014.

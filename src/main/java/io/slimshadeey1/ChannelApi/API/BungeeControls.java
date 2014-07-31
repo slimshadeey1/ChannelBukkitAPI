@@ -1,6 +1,6 @@
-package mc.alk.ChannelAPI.API;
+package mc.alk.ChannelApi.API;
 
-import mc.alk.ChannelAPI.Bungeecord.*;
+import mc.alk.ChannelApi.Bungeecord.*;
 
 /**
  * Created by Ben Byers on 7/30/2014.
