@@ -2,7 +2,6 @@ package io.slimshadeey1.ChannelApi.Util;
 
 
 import io.slimshadeey1.ChannelApi.API.*;
-import io.slimshadeey1.ChannelApi.Util.Receive.*;
 import org.bukkit.plugin.messaging.*;
 
 import java.lang.reflect.*;
