@@ -1,4 +1,4 @@
-package mc.alk.ChannelApi.Objects;
+package io.slimshadeey1.ChannelApi.Objects;
 
 import java.io.*;
 import java.util.*;

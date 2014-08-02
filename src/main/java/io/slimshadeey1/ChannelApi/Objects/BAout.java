@@ -1,4 +1,4 @@
-package mc.alk.ChannelApi.Objects;
+package io.slimshadeey1.ChannelApi.Objects;
 
 import com.google.common.io.*;
 

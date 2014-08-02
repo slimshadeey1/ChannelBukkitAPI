@@ -1,7 +1,7 @@
-package mc.alk.ChannelApi.Bungeecord;
+package io.slimshadeey1.ChannelApi.Bungeecord;
 
 import com.google.common.io.*;
-import mc.alk.ChannelApi.API.*;
+import io.slimshadeey1.ChannelApi.API.*;
 import org.bukkit.plugin.*;
 
 /**

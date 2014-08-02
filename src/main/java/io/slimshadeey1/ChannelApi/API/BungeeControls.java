@@ -1,6 +1,7 @@
-package mc.alk.ChannelApi.API;
+package io.slimshadeey1.ChannelApi.API;
 
-import mc.alk.ChannelApi.Bungeecord.*;
+
+import io.slimshadeey1.ChannelApi.Bungeecord.*;
 
 /**
  * Created by Ben Byers on 7/30/2014.

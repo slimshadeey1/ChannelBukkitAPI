@@ -1,17 +1,17 @@
-package mc.alk.ChannelApi.API;
+package io.slimshadeey1.ChannelApi.API;
 
-import mc.alk.ChannelApi.Util.*;
+import io.slimshadeey1.ChannelApi.Util.*;
 
 import java.lang.reflect.*;
 
 /**
  * Created by Ben Byers on 7/28/2014.
  */
-public class ChannelAPI {
-    public ChannelAPI(ChannelExec exec) {
+public class ChannelReceive {
+    public ChannelReceive(ChannelExec exec) {
         for (Method method : exec.getClass().getMethods()) {
             try {
-                ChannelInt channel = method.getAnnotation(ChannelInt.class);
+                Receive channel = method.getAnnotation(Receive.class);
                 new Enable(channel.channel(), channel.subchannel(), method, false);
             } catch (Exception e) {
             }

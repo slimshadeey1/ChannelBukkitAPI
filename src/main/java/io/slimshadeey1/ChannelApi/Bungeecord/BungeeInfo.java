@@ -1,4 +1,4 @@
-package mc.alk.ChannelApi.Bungeecord;
+package io.slimshadeey1.ChannelApi.Bungeecord;
 
 /**
  * Created by Ben Byers on 7/28/2014.

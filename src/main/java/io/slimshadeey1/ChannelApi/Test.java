@@ -1,7 +1,8 @@
-package mc.alk.ChannelApi;
+package io.slimshadeey1.ChannelApi;
 
-import mc.alk.ChannelApi.API.*;
-import mc.alk.ChannelApi.Objects.*;
+
+import io.slimshadeey1.ChannelApi.API.*;
+import io.slimshadeey1.ChannelApi.Objects.*;
 
 import java.util.*;
 

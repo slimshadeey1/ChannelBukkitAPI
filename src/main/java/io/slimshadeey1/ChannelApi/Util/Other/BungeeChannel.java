@@ -1,6 +1,8 @@
-package mc.alk.ChannelApi.Util;
+package io.slimshadeey1.ChannelApi.Util.Other;
 
-import mc.alk.ChannelApi.API.*;
+
+import io.slimshadeey1.ChannelApi.API.*;
+import io.slimshadeey1.ChannelApi.Util.*;
 
 import java.lang.reflect.*;
 
@@ -11,7 +13,7 @@ public class BungeeChannel {
     public BungeeChannel(ChannelExec exec) {
         for (Method method : exec.getClass().getMethods()) {
             try {
-                ChannelInt channel = method.getAnnotation(ChannelInt.class);
+                Receive channel = method.getAnnotation(Receive.class);
                 new Enable(channel.channel(), channel.subchannel(), method, true);
             } catch (Exception e) {
             }

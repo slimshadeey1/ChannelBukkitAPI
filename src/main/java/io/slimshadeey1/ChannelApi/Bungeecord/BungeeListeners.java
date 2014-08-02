@@ -1,6 +1,6 @@
-package mc.alk.ChannelApi.Bungeecord;
+package io.slimshadeey1.ChannelApi.Bungeecord;
 
-import mc.alk.ChannelApi.API.*;
+import io.slimshadeey1.ChannelApi.API.*;
 
 import java.io.*;
 
@@ -14,7 +14,7 @@ public class BungeeListeners implements ChannelExec {
     public static String server;
 
 
-    @ChannelInt(channel = "BungeeCord", subchannel = "GetServer")
+    @Receive(channel = "BungeeCord", subchannel = "GetServer")
     public static void GetServer(DataInputStream in) {
         try {
             String servername = in.readUTF();
@@ -24,7 +24,7 @@ public class BungeeListeners implements ChannelExec {
         }
     }
 
-    @ChannelInt(channel = "BungeeCord", subchannel = "PlayerList")
+    @Receive(channel = "BungeeCord", subchannel = "PlayerList")
     public static void PlayerListin(DataInputStream in) {
         try {
             String server = in.readUTF(); // The name of the server you got the player list of, as given in args.
@@ -35,7 +35,7 @@ public class BungeeListeners implements ChannelExec {
         }
     }
 
-    @ChannelInt(channel = "BungeeCord", subchannel = "PlayerCount")
+    @Receive(channel = "BungeeCord", subchannel = "PlayerCount")
     public static void PlayerCountin(DataInputStream in) {
         try {
             String server = in.readUTF(); // Name of server, as given in the arguments
@@ -46,7 +46,7 @@ public class BungeeListeners implements ChannelExec {
         }
     }
 
-    @ChannelInt(channel = "BungeeCord", subchannel = "GetServers")
+    @Receive(channel = "BungeeCord", subchannel = "GetServers")
     public static void Serversin(DataInputStream in) {
         try {
             String[] serverList = in.readUTF().split(", ");

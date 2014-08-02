@@ -1,7 +1,7 @@
-package mc.alk.ChannelApi.API;
+package io.slimshadeey1.ChannelApi.API;
 
 import com.google.common.io.*;
-import mc.alk.ChannelApi.Objects.*;
+import io.slimshadeey1.ChannelApi.Objects.*;
 import org.bukkit.plugin.*;
 
 /**

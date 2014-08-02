@@ -1,4 +1,4 @@
-package mc.alk.ChannelApi.Util;
+package io.slimshadeey1.ChannelApi.Util.Receive;
 
 import java.lang.reflect.*;
 import java.util.*;

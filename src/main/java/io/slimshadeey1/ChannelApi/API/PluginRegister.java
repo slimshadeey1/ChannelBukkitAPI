@@ -1,7 +1,7 @@
-package mc.alk.ChannelApi.API;
+package io.slimshadeey1.ChannelApi.API;
 
-import mc.alk.ChannelApi.Bungeecord.*;
-import mc.alk.ChannelApi.Util.*;
+import io.slimshadeey1.ChannelApi.Bungeecord.*;
+import io.slimshadeey1.ChannelApi.Util.Other.*;
 import org.bukkit.plugin.*;
 
 /**
