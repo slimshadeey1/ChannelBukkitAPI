@@ -1,4 +1,4 @@
-package io.slimshadeey1.ChannelApi.Util.Other;
+package io.slimshadeey1.ChannelApi.Util;
 
 
 import io.slimshadeey1.ChannelApi.API.*;

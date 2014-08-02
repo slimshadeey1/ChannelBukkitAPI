@@ -1,7 +1,7 @@
 package io.slimshadeey1.ChannelApi.Util.Receive;
 
 import io.slimshadeey1.ChannelApi.Objects.*;
-import io.slimshadeey1.ChannelApi.Util.Other.*;
+import io.slimshadeey1.ChannelApi.Util.*;
 import org.bukkit.entity.*;
 import org.bukkit.plugin.messaging.*;
 

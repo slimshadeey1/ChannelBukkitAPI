@@ -1,7 +1,7 @@
 package io.slimshadeey1.ChannelApi.API;
 
 import io.slimshadeey1.ChannelApi.Bungeecord.*;
-import io.slimshadeey1.ChannelApi.Util.Other.*;
+import io.slimshadeey1.ChannelApi.Util.*;
 import org.bukkit.plugin.*;
 
 /**

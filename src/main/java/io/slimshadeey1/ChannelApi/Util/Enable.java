@@ -2,7 +2,6 @@ package io.slimshadeey1.ChannelApi.Util;
 
 
 import io.slimshadeey1.ChannelApi.API.*;
-import io.slimshadeey1.ChannelApi.Util.Other.*;
 import io.slimshadeey1.ChannelApi.Util.Receive.*;
 import org.bukkit.plugin.messaging.*;
 
@@ -13,6 +12,7 @@ import java.lang.reflect.*;
  */
 public class Enable {
     private Messenger plugin = PluginRegister.getPlugin().getServer().getMessenger();
+
     public Enable(String channel, String subChannel, Method exec, Boolean Bungee) {
         if (!plugin.isIncomingChannelRegistered(PluginRegister.getPlugin(), channel))
             plugin.registerIncomingPluginChannel(PluginRegister.getPlugin(), channel, new Receiver());
